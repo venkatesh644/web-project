@@ -1,0 +1,86 @@
+.pricing {
+    font-family: Arial, sans-serif;
+    background:url(image-cj/fest.jpg) no-repeat center center/cover;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+    margin: 0;
+    height:100vh;
+}
+
+
+h1 {
+    font-size: 38px;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    box-sizing: border-box;
+}
+
+.plan {
+    background: rgba(255, 255, 255, 0.686);
+    border: 2px dotted #ccc;
+    border-radius: 10px;
+    padding: 25px;
+    width: 500px;
+    text-align: left;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+
+.plan h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+.price {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 5px 0 15px;
+}
+
+.plan ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #777;
+    line-height: 1.6;
+}
+
+.buy-btn {
+    display: inline-block;
+    color: maroon;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    border: 1px solid;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.buy-btn:hover{
+    color: black;
+    background-color: rgba(211, 198, 200, 0.611);
+    box-shadow: 0 0 20px rgb(175, 98, 15);
+}
+
+.badge {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    background: #f44336;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.2;
+    width: 80px;
+    height: 80px;
+}

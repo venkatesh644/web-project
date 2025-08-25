@@ -1,0 +1,138 @@
+/* style.css */
+.contact {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  /* color: #111; */
+  color: #f25c05;
+  height: 100vh;
+  /* width: 100vw; */
+}
+h2{
+    color: black;
+    padding-top: 30px;
+}
+.contact-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+/* Tabs */
+.tabs-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #f0f6fd;
+  border-radius: 50px;
+  padding: 6px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  margin-bottom: 30px;
+  position: relative;
+}
+
+/* Hide radios, keep accessible */
+.tab-radio {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Tab labels */
+.tab {
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  background: transparent;
+  color: #444;
+  transition: 0.3s ease;
+  user-select: none;
+  outline: none;
+  border: none;
+}
+
+/* Active states driven by :checked */
+#tab-form:checked + label[for="tab-form"],
+#tab-map:checked + label[for="tab-map"] {
+  background: #fff3c4;
+  color: #f8b400;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Panel card */
+.card {
+  background: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+/* Show/Hide panels with CSS only */
+.panel {  }
+/* #tab-form:checked ~ .card #panel-form { display: block; } */
+/* #tab-map:checked  ~ .card #panel-map  { display: block; } */
+/* #tab-form:checked ~ .card #panel-map { display: none; } */
+/* #tab-map:checked  ~ .card #panel-form { display: none; } */
+
+/* Keep [hidden] synced for a11y (optional visual no-op) */
+/* .panel[hidden] { display: none !important; } */
+/* #tab-form:checked ~ .card #panel-form[hidden] { display: block !important; } */
+/* #tab-map:checked  ~ .card #panel-map[hidden]  { display: block !important; } */
+
+/* Form */
+form input,
+form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+  resize: none;
+  box-sizing: border-box;
+}
+
+.input-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.input-row input { flex: 1 1 240px; }
+
+.submit-btn {
+  background-color: #f25c05;
+  color: #fff;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-left: 300px;
+}
+
+.submit-btn:hover { background-color: #d94e00; }
+
+
+/* footer  */
+footer{
+    display: flex;
+    background-color: #d94e00;
+    justify-content: space-between;
+}
+footer p{
+    color: whitesmoke;
+    font-size: 30px;
+}

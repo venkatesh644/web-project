@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.container-1 {
+  height: 110vh;
+  background-image: linear-gradient(to top left, rgba(216, 20, 95, 0.774), rgba(146, 153, 188, 0.904));
+  box-sizing: border-box;
+background-color: whitesmoke;
+
+}
+
+
+
+.ar{
+  text-align: center;
+  font-size: 35px;
+  color: whitesmoke;
+
+
+}
+
+span {
+  color: white;
+}
+
+p {
+
+  margin: 10px;
+
+}
+
+.artist-img {
+  border-radius: 20px;
+  width: 500px;
+  height: 250px;
+
+
+
+
+
+}
+
+.parent-1,
+.parent-2,
+.grand-1,
+.grand-2 {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 20px;
+
+}
+
+.child,
+.item {
+  position: relative;
+  overflow: hidden;
+
+
+
+}
+
+.artist-details {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 300px;
+  height: 150px;
+  margin: 0 50px;
+  background-color: rgba(239, 243, 8, 0.622);
+  color: rgba(0, 0, 0, 0.85);
+  border-radius: 10px;
+  padding: 40px 50px;
+  transform: translateY(100%);
+  transition: all 0.4s ease;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.child:hover .artist-details,
+.item:hover .artist-details {
+  transform: translateY(0);
+  margin-bottom: 15px;
+}
+

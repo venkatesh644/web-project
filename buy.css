@@ -1,0 +1,122 @@
+
+/* buy section */
+
+body {
+        background: url('image-cj/nicholas-green-unsplash-blur.jpg') no-repeat center center/cover;
+        margin: 0;
+        height: 100vh; /* Full viewport height */
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center;     /* Center vertically */
+        font-family: Arial, sans-serif;
+    }
+
+    .form-container {
+        background-color:rgba(207, 201, 201, 0.729);
+        border-radius: 20px;
+        padding: 30px;
+        width: 500px;
+        height:550px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.2); /* Optional: shadow */
+    }
+
+    input, select {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: solid #ccc;
+    }
+
+    button {
+        background-color: red;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 30px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        font-size: 20px;
+        padding: 10px 50px;
+        
+    }
+
+    button:hover {
+        background-color: rgba(115, 88, 37, 0.556);
+        box-shadow:0 0 10px goldenrod;
+        
+    }
+    .row{
+        display: flex;
+        gap: 10px;
+        
+        
+    }
+    .ticket{
+        display:flex;
+        gap: 15px;
+        margin-bottom: 15px;
+        padding-top: 10px;
+        
+        
+    }
+    .ticket label{
+        border: 2px solid;
+        padding: 10px;
+        flex: 1;
+        display: flex;
+        gap: 8px;
+        border-radius: 20px;
+        border: solid #ccc;
+        border: none;
+    }
+    .ticket input[type="radio"]{
+        margin: 0;
+        width: 16px;
+        height: 16px;
+        te
+        
+    }
+    input[type="email"]{
+        background-color:rgba(137, 135, 131, 0.4);
+        border: none;
+    }
+
+   input[type="text"]
+   ,[type="number"]{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color:rgba(137, 135, 131, 0.4);
+    border: none;
+    
+   }
+   textarea{
+    width: 100%;
+    height: 20vh;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    padding: 12px;
+    box-sizing: border-box;
+    font-size: 14px;
+    resize: none;
+    border-radius: 5px;
+    border: 2px solid #ccc ;
+    background-color:rgba(137, 135, 131, 0.4);
+    border: none;
+   }
+   h2{
+    text-align: center;
+    font-size: 30px;
+   }
+   ::placeholder{
+    /* font-weight: bold; */
+    color: black;
+   }
+
+
+
+
